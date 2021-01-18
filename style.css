@@ -7,6 +7,75 @@ html, body {
 
 
 /* TYPO */
+.typo{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.playfair-display-container{
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    padding: 2em;
+    font-family: 'Playfair Display', serif;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.typo-indications{
+    font-family: Open Sans;
+    font-size: 12px;
+    color: grey;
+}
+
+.playfair-display-typo{
+    font-size: 20px;
+    font-weight: normal;
+}
+.playfair-display-typo-bold{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.arvo-container{
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    padding: 2em;
+    font-family: 'Arvo', serif;
+    border-radius: 20px;
+}
+.h1-arvo{
+    font-size: 62px;
+}
+.arvo-typo{
+    font-size: 20px;
+}
+.arvo-typo-bold{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+
+
+/* .arvo-typo{
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+} */
+
 
 /* END */
 

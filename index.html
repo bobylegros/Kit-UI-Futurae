@@ -5,16 +5,169 @@
         <title>Tailwindcss Jour 7</title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
        <section class="typo">
-
+           <div class="playfair-display-container">
+               <h1>
+                   Ceci est un titre.
+               </h1>
+               <p class="typo-indications">
+                    h1: Playfair Display - 36px - Extra Bold
+                </p>
+                <br>
+               <h2 class="playfair-display-typo">
+                    Ceci est un titre.
+               </h2>
+               <p class="typo-indications">
+                    h2: Playfair Display - 20px - Normal
+                </p>
+                <br>
+               <h2 class="playfair-display-typo-bold">
+                    Ceci est un titre.
+                </h2>
+                <p class="typo-indications">
+                    h2: Playfair Display - 20px - Bold
+                </p><br>
+               
+                <h3 class="typo-indications">Typographie paragraphes: Open Sans - 14px - Normal</h3>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                    deserunt mollit anim id est laborum.
+                </p>
+           </div>
        </section>
        <section class="colors">
-
+            <div class="gridContainer">
+                <div class="textColor">
+                    <p>Text<br>#252525</p>
+                </div>
+                <div class="firstColor">
+                    <p>Primary<br>#6930c3</p>
+                </div>
+                <div class="secondColor">
+                    <p>Secondary<br>#64dfdf</p>
+                </div>
+                <div class="thirdColor">
+                    <p>Tertiary<br>#80ffdb</p>
+                </div>
+            </div>
        </section>
 
+      <div class="coucoutoi">
+            <section class="Cards">
+                <img class="bgImage" src="paysage.jpg">
+                 <div class="informations">
+                    <img src="profil.jpg" alt="">
+                    <h1>Michel DUPONT</h1>
+                    <p>mdupont@gmail.com</p>
+                    <p> 06 00 00 00 00</p>
+                    <button class="unbouton"
+                            type="button">
+                            Contacter
+                    </button>
+                </div>
+            </section>
+            <section class="Cards">
+                <img class="bgImage" src="paysage.jpg">
+                 <div class="informations">
+                    <img src="profil.jpg" alt="">
+                    <h1>Michel DUPONT</h1>
+                    <p>mdupont@gmail.com</p>
+                    <p> 06 00 00 00 00</p>
+                    <button class="unbouton"
+                            type="button">
+                            Contacter
+                    </button>
+                </div>
+            </section>
+            <section class="Cards">
+                <img class="bgImage" src="paysage.jpg">
+                 <div class="informations">
+                    <img src="profil.jpg" alt="">
+                    <h1>Michel DUPONT</h1>
+                    <p>mdupont@gmail.com</p>
+                    <p> 06 00 00 00 00</p>
+                    <button class="unbouton"
+                            type="button">
+                            Contacter
+                    </button>
+                </div>
+            </section>
+        </div>
+      
+       <section class="buttons">
+            <div class="buttons-container">
+                <button class="button-one"type="button">
+                    dark button
+                </button>
+                <button class="button-two" type="button">
+                    purple button
+                </button>
+                <button class="button-three" type="button">
+                    blue button
+                </button>
+                <button class="button-four" type="button">
+                    turquoise button
+                </button>
+            </div>
+        <div class="buttons-container-reversed">
+            <button class="button-reversed-one"type="button">
+                dark button
+            </button>
+            <button class="button-reversed-two" type="button">
+                purple button
+            </button>
+            <button class="button-reversed-three" type="button">
+                blue button
+            </button>
+            <button class="button-reversed-four" type="button">
+                turquoise button
+            </button>
+        </div>
+    <p class="typo-indications">
+        button size: 16px - padding: 15px 32px
+    </p>
+       </section>
+       <section class="nav-bar">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="check-button">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">Logo</label> 
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Toto</a></li>
+                    <li><a class="active" href="#">sign Up</a></li>
+                </ul>
+            </nav>
+            <br>
+            <nav class="nav2">
+                <input type="checkbox" id="check">
+                <label for="check" class="check-button">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">Logo</label> 
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Toto</a></li>
+                    <li><a class="active2" href="#">sign Up</a></li>
+                </ul>
+            </nav>
+       </section>
     </body>
 </html>

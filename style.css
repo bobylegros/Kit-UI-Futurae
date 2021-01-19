@@ -10,7 +10,7 @@ html, body {
 .typo{
     height: 100%;
     width: 100%;
-    background-color: rgb(240, 240, 240);
+    background-color:white;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -18,19 +18,21 @@ html, body {
     justify-content: center;
     align-items: center;
     
-}
-
-.playfair-display-container{
-    height: 60%;
-    width: 50%;
+  }
+  
+  .playfair-display-container{
+    height: 57%;
+    width: 40%;
     background-color: white;
-    padding: 2em;
+    padding: 3em;
     font-family: 'Playfair Display', serif;
     border-radius: 20px;
+    box-shadow: 0px 0px 50px -23px rgba(0,0,0,0.75);
 }
 
 h1{
     font-size: 36px;
+    line-height: 10px;
 }
 
 .typo-indications{
@@ -66,16 +68,13 @@ h1{
     font-size: 20px;
     font-weight: 900;
 }
-
-
-
-
-
-/* .arvo-typo{
-    font-family: 'Arvo', serif;
-    font-size: 40px;
-} */
-
+h3{
+  font-weight: normal;
+}
+.paragraph{
+  font-family: Open Sans;
+  font-size: 14px;
+}
 
 /* END */
 
@@ -222,3 +221,325 @@ h1{
 
 /* END */
 
+/* BUTTONS */
+
+.buttons {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+ 
+}
+
+.buttons-container{
+  height: 6%;
+  width: 50%;
+  /* background-color:rgb(226, 227, 253); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between ;
+  padding-bottom: 3em;
+}
+
+.button-one{
+  background-color: #252525;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-one:hover {
+  background-color:white;
+  color: #252525;
+  border: 2px solid #252525;
+}
+
+.button-two{
+  background-color: #6930c3;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-two:hover {
+  background-color:white;
+  color: #252525;
+  border: 2px solid #6930c3;
+}
+
+.button-three{
+  background-color: #64dfdf;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-three:hover {
+  background-color:white;
+  color: #252525;
+  border: 2px solid #64dfdf;
+}
+
+.button-four{
+  background-color: #80ffdb;
+  color: #252525;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-four:hover {
+  background-color:white;
+  color: #252525;
+  border: 2px solid #80ffdb;
+}
+
+.buttons-container-reversed{
+  height: 6%;
+  width: 50%;
+  /* background-color:rgb(248, 229, 248); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between ;
+  padding-bottom: 3em;
+}
+.button-reversed-one{
+  background-color: white;
+  border: 2px solid #252525;
+  color: #252525;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-reversed-one:hover {
+  background-color:#252525;
+  color: white;
+}
+
+.button-reversed-two{
+  background-color: white;
+  border: 2px solid #6930c3;
+  color: #252525;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-reversed-two:hover {
+  background-color:#6930c3;
+  color: white;
+}
+
+.button-reversed-three{
+  background-color: white;
+  border: 2px solid  #64dfdf;
+  color: #252525;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-reversed-three:hover {
+  background-color:#64dfdf;
+  color: white;
+}
+
+.button-reversed-four{
+  color: #252525;
+  background-color: white;
+  border: 2px solid  #80ffdb;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-reversed-four:hover {
+  background-color:#80ffdb;
+  color: #252525;
+}
+
+/* END */
+
+/* NAV BAR */
+
+.nav-bar{
+  width: 100%;
+  height: 60%;
+  /* background-color:violet; */
+}
+nav{
+  background: #6930c3;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px ;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 40px;
+margin: 0 35px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 10px 13px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+a.active,a:hover{
+background: #884aec;
+transition: .5s;
+}
+.check-button{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 858px){
+  .check-button{
+    display: block;
+  }
+  ul{
+    /* position: fixed; */
+    width: 100%;
+    height: 12em;
+    top: 80px;
+    background: rgb(63, 63, 63);
+    margin-right: 40px;
+    text-align: center;
+    margin: 0 ;
+  
+  }
+  nav ul li{
+    display: block;
+  }
+}
+
+
+.nav2{
+  background: #64dfdf;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px ;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 40px;
+margin: 0 35px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 10px 13px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+a.active2,a:hover{
+background: #40cece;
+transition: .5s;
+}
+.check-button{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 858px){
+  .check-button{
+    display: block;
+  }
+  ul{
+    width: 100%;
+    height: 12em;
+    top: 80px;
+    background: rgb(63, 63, 63);
+    margin-right: 40px;
+    text-align: center;
+    margin: 0 ;
+  
+  }
+  nav ul li{
+    display: block;
+  }
+}
+
+/* END */
